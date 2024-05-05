@@ -1,0 +1,5 @@
+salarioAtual = float(input('Digite o salário atual: '))
+comissao = salarioAtual * 5 / 100
+novoSalario = salarioAtual + comissao
+
+print('O novo salário acrescido de 5% de comissão é: ', novoSalario)
